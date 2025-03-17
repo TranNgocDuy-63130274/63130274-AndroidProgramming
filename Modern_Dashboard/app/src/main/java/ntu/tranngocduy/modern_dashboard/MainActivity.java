@@ -1,4 +1,4 @@
-package com.example.moderndashboard;
+package ntu.tranngocduy.modern_dashboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -6,6 +6,9 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import ntu.tranngocduy.modern_dashboard.ClothingActivity;
+import ntu.tranngocduy.modern_dashboard.R;
 
 public class MainActivity extends AppCompatActivity {
 
