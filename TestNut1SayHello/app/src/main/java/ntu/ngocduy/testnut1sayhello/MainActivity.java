@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String buttonText = button.getText().toString();
 
         if (v.getId() == R.id.btnKiemtra) {
-            checkAnswer();  // Kiểm tra kết quả khi người chơi nhấn nút "Kiểm tra"
+            checkAnswer(); //Check kết quả
         } else if (v.getId() == R.id.btnReset) {
-            resetGame();  // Reset game khi nhấn nút "Reset"
+            resetGame();  //reset
         } else {
             // Xử lý các nút số
             if (isFirstOperand) {
