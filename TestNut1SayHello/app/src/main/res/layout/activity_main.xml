@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="16dp">
 
     <LinearLayout
+        android:id="@+id/mathLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -16,13 +16,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="24sp"
-            android:gravity="center"/>
+            android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:gravity="center" />
 
         <TextView
             android:id="@+id/operand2TextView"
@@ -30,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="24sp"
-            android:gravity="center"/>
+            android:gravity="center" />
 
     </LinearLayout>
 
@@ -38,16 +39,30 @@
         android:id="@+id/resultTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:layout_below="@id/mathLayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center"
         android:padding="8dp"
-        android:layout_marginBottom="16dp" />
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nhập kết quả"
+        android:inputType="number"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
 
     <GridLayout
+        android:id="@+id/numberPadLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="3"
-        android:rowCount="3">
+        android:rowCount="3"
+        android:layout_below="@id/resultTextView">
 
         <Button
             android:id="@+id/button1"
@@ -118,6 +133,24 @@
         android:id="@+id/btnKiemtra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/numberPadLayout"
+        android:layout_marginTop="33dp"
         android:text="Kiểm tra" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnKiemtra"
+        android:layout_marginTop="7dp"
+        android:text="Reset" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:text="Điểm: 0" />
+
+</RelativeLayout>
