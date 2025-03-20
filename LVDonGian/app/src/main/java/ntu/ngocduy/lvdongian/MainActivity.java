@@ -1,5 +1,6 @@
-package ntu.tranngocduy.lvngonngulaptrinh;
+package ntu.ngocduy.lvdongian;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -16,9 +17,10 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    ListView listViewNNLT;
-    ArrayList<String> dsNgonNguLT;
+    ListView listViewDonGian;
+    ArrayList<String> dsBai;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,32 +33,32 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        listViewNNLT = findViewById(R.id.lvNNLT);
+        listViewDonGian = findViewById(R.id.lvdongian);
 
         // Chuẩn bị dữ liệu, hard-code
-        dsNgonNguLT = new ArrayList<String>();
-        dsNgonNguLT.add("Python");
-        dsNgonNguLT.add("Php");
-        dsNgonNguLT.add("Java");
-        dsNgonNguLT.add("C");
-        dsNgonNguLT.add("C++");
+        dsBai = new ArrayList<String>();
+        dsBai.add("Bài 1");
+        dsBai.add("Bài 2");
+        dsBai.add("Bài 3");
+        dsBai.add("Bài 4");
+        dsBai.add("Bài 5");
 
         // B2: Khởi tạo adapter
         ArrayAdapter<String> adapterNNLT = new ArrayAdapter<String>(
                 this,
                 android.R.layout.simple_dropdown_item_1line,
-                dsNgonNguLT
+                dsBai
         );
 
         // B3: Gắn Adapter
-        listViewNNLT.setAdapter(adapterNNLT);
+        listViewDonGian.setAdapter(adapterNNLT);
 
         // B4: Gắn bộ lắng nghe và xử lý sự kiện
-        listViewNNLT.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listViewDonGian.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 // Lấy giá trị của item được click
-                String giaTriDuocChon = dsNgonNguLT.get(i);
+                String giaTriDuocChon = dsBai.get(i);
 
                 // Hiển thị giá trị được chọn lên Toast
                 Toast.makeText(MainActivity.this, giaTriDuocChon, Toast.LENGTH_LONG).show();
