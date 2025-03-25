@@ -57,3 +57,13 @@ Sau khi đăng nhập:
 Login Screen:
 
 ![alt text](image-11.png)
+
+Giao diện ban đầu của app toán:
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+Sau khi kiểm tra +1 ở góc phải màn hình - sai thì 0 cộng:
+
+![alt text](image-14.png)
