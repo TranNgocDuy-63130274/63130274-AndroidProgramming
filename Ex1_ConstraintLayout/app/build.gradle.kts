@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "til.edu.ex1_constraintlayout"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "til.edu.ex1_constraintlayout"
