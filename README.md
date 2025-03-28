@@ -67,3 +67,8 @@ Giao diện ban đầu của app toán:
 Sau khi kiểm tra +1 ở góc phải màn hình - sai thì 0 cộng:
 
 ![alt text](image-14.png)
+
+Recycler View còn lỗi không hiển thị hình ảnh:
+
+![alt text](image-15.png)
+
