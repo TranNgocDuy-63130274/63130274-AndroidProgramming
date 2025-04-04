@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(iQuiz);
                 }
                 else {
-                    Toast.makeText(LoginActivity.this, "Bạn Đăng Nhập Sai Thông Tin", Toast.LENGTH_LONG);
+                    Toast.makeText(LoginActivity.this, "Bạn Đăng Nhập Sai Thông Tin", Toast.LENGTH_LONG);tra
                 }
             }
         });

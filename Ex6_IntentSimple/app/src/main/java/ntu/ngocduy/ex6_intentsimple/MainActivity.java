@@ -1,4 +1,6 @@
 package ntu.ngocduy.ex6_intentsimple;
+import static ntu.ngocduy.ex6_intentsimple.R.*;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
