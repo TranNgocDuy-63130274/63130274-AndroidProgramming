@@ -88,3 +88,9 @@ Fragment Dynamic:
 ![alt text](image-19.png)
 
 ![alt text](image-20.png)
+
+//Kết Nối FireBase
+
+![alt text](image-22.png)
+
+![alt text](image-21.png)
