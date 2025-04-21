@@ -72,7 +72,12 @@ Recycler View còn lỗi không hiển thị hình ảnh:
 
 ![alt text](image-15.png)
 
-Online BT: Fragment 
+Online BT:
+ Fragment Static: 
 
 ![alt text](image-16.png)
+
+Fragment Dynamic:
+
+![alt text](image-17.png)
 
