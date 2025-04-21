@@ -13,6 +13,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class CN2 extends AppCompatActivity {
 
+    private Object view;
+
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +27,11 @@ public class CN2 extends AppCompatActivity {
             return insets;
         });
         //Đây là bộ lắng nghe và xử lý sự kiện click lên nút Tính Tổng
-        public void XuLyCong(View view){
+        public void KiemTraCheck (Object view ){
             // Tìm, tham chiếu đến điều khiển trên tệp XML, mapping sang java file
             EditText editTextThang = findViewById(R.id.edtxt1);
             EditText editTextNam = findViewById(R.id.edtxt2);
-            EditText editTextSoKQ = findViewById(R.id.edtxt3);
+            EditText editTextCheck = findViewById(R.id.edtxt3);
 
             // Lay du lieu ve o dieu khien so a
             String strA = editTextThang.getText().toString(); //strA = "4"
@@ -42,10 +44,11 @@ public class CN2 extends AppCompatActivity {
 
             //Tinh toan theo yeu cau
             String check = String.valueOf(0);
-            if((thang == 4) && (nam==1975)) check="Đúng";
-            else(check="sai");
+            if ((thang == 4) && (nam == 1975)) check = "Đúng";
+            else check = "Sai";
 
             //Hien ra man hinh
-            editTextSoKQ.setText(check);
+            editTextCheck.setText(check);
+        }
     }
 }
