@@ -26,8 +26,9 @@ public class CN2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
         //Đây là bộ lắng nghe và xử lý sự kiện click lên nút Tính Tổng
-        public void KiemTraCheck (Object view ){
+        /*public void KiemTraCheck {
             // Tìm, tham chiếu đến điều khiển trên tệp XML, mapping sang java file
             EditText editTextThang = findViewById(R.id.edtxt1);
             EditText editTextNam = findViewById(R.id.edtxt2);
@@ -49,6 +50,6 @@ public class CN2 extends AppCompatActivity {
 
             //Hien ra man hinh
             editTextCheck.setText(check);
-        }
+        } */
     }
 }

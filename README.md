@@ -72,6 +72,19 @@ Recycler View còn lỗi không hiển thị hình ảnh:
 
 ![alt text](image-15.png)
 
+Thi Giữa Kì:
+Màn Hình Chính:
+![alt text](image-23.png)
+
+Màn Hình Chức Năng 2:
+![alt text](image-24.png)
+
+Màn hình chức năng 3: 
+![alt text](image-25.png)
+
+Màn Hình About Me:
+![alt text](image-26.png)
+
 Online BT:
  Fragment Static: 
 
