@@ -5,6 +5,10 @@ Các bài thực hành và bài tập được lưu tại đây và Push lên se
 
 Bài tập:
 
+BT trên Zalo  22/4:
+
+![alt text](image-27.png)
+
 Ex1_ConstrainLayout:
 
 ![alt text](image-3.png)
