@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Thay HOME", Toast.LENGTH_LONG).show();
                 else if (mnuItemDuocChonID == R.id.mnu_Search)
                     Toast.makeText(MainActivity.this, "Thay SEARCH", Toast.LENGTH_LONG).show();
-                else if (mnuItemDuocChonID == R.id.mnu_Search)
+                else if (mnuItemDuocChonID == R.id.mnu_Profile)
                     Toast.makeText(MainActivity.this, "Thay PROFILE", Toast.LENGTH_LONG).show();
                 else return false;
 
