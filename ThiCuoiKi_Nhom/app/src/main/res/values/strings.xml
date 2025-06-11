@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ThiCuoiKi_Nhom</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="email">Email</string>
+    <string name="password">Mật Khẩu</string>
+    <string name="register">Đăng Ký</string>
+    <string name="click_to_login">Đã có tài khoản</string>
+    <string name="click_to_register">Đăng ký tài khoản</string>
+    <string name="logout">Thoát</string>
+</resources>
