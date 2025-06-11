@@ -3,6 +3,26 @@ Lưu các bài tập thực hành, bài tập dự án trong học tập trên A
 
 Các bài thực hành và bài tập được lưu tại đây và Push lên server thường xuyên để thầy tracking quá trình.
 
+Thi cuối kì:
+
+Giao diện đăng nhập:
+![alt text](image-28.png)
+
+Giao diện đăng kí:
+![alt text](image-29.png)
+
+Giao diện quên mật khẩu:
+![alt text](image-30.png)
+
+Giao diện chính:
+![alt text](image-31.png)
+
+Giao diện khi trả lời câu hỏi đúng sai:
+![alt text](image-32.png)
+
+Giao diện khi hoàn thành hiển thị đáp án đúng/sai và có nút đăng xuất hoặc quay trở lại làm bài tập:
+![alt text](image-33.png)
+
 Bài tập:
 
 BT trên Zalo  22/4:
